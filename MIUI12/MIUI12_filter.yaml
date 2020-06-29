@@ -1,11 +1,1486 @@
 strings_key_rules:
+
+  AuthManager.apk:
+   - match: static_cache_db_md5
+     mode: contains
+
+  Backup.apk:
+   - match: digit_percent
+     mode: contains
+   - match: xiaomi_account_type
+     mode: contains
+   - match: xiaomi_bytes_unit
+     mode: contains
+   - match: xiaomi_kilobytes_unit
+     mode: contains
+   - match: xiaomi_megabytes_unit
+     mode: contains
+
+  Bluetooth.apk:
+   - match: pairing_ui_package
+     mode: contains
+   - match: pbap_account_type
+     mode: contains
+
+  Browser.apk:
+   - match: bottom_sheet_behavior
+     mode: contains
+   - match: fab_transformation_scrim_behavior
+     mode: contains
+   - match: fab_transformation_sheet_behavior
+     mode: contains
+   - match: navigate_feedback_report_input_length
+     mode: contains
+   - match: mw_status_bar_notification_info_overflow
+     mode: contains
+   - match: mw_time_picker_dialog_hour_minute_separator
+     mode: contains
+   - match: mw_time_picker_dialog_minute_second_separator
+     mode: contains
+   - match: path_password_eye
+     mode: contains
+   - match: path_password_eye_mask_strike_through
+     mode: contains
+   - match: path_password_eye_mask_visible
+     mode: contains
+   - match: path_password_strike_through
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: suggestion_topic_subtitle_navtitle_hyphen
+     mode: contains
+
+  BuiltInPrintService.apk:
+   - match: ip_hint
+     mode: contains
+   - match: media_size_l
+     mode: contains
+   - match: printer_description
+     mode: contains
+   - match: resolution_300_dpi
+     mode: contains
+
+  Calculator.apk:
+   - match: xiaomi_bytes_unit
+     mode: contains
+   - match: xiaomi_kilobytes_unit
+     mode: contains
+   - match: xiaomi_megabytes_unit
+     mode: contains
+
+  Calendar.apk:
+   - match: prefDefault_alerts_vibrate_false
+     mode: contains
+   - match: prefDefault_alerts_vibrate_true
+     mode: contains
+   - match: prefDefault_alerts_vibrateWhen
+     mode: contains
+   - match: date_time_fmt
+     mode: contains
+   - match: tag_action_bar_in_feed
+     mode: contains
+   - match: tag_feed_list_container
+     mode: contains
+
+  CleanMaster.apk:
+   - match: appcleaner_wechat_pref_size_100_MB
+     mode: contains
+   - match: appcleaner_wechat_pref_size_1_GB
+     mode: contains
+   - match: appcleaner_wechat_pref_size_300_MB
+     mode: contains
+   - match: appcleaner_wechat_pref_size_500_MB
+     mode: contains
+   - match: empty
+     mode: contains
+   - match: hints_header_left
+     mode: contains
+   - match: preference_category_information_setting
+     mode: contains
+   - match: preference_category_key_auto_update_cleanup_db
+     mode: contains
+   - match: preference_key_information_setting_close
+     mode: contains
+   - match: preference_key_information_setting_wlan
+     mode: contains
+   - match: preference_key_wechat_garbage_clean_alert
+     mode: contains
+   - match: preference_key_wechat_garbage_cleanup_auto_check_size
+     mode: contains
+   - match: preference_key_wechat_garbage_cleanup_auto_check_time
+     mode: contains
+
+  CloudBackup.apk:
+   - match: pattern_backup_name_with_home
+     mode: contains
+   - match: pattern_backup_name_without_home
+     mode: contains
+   - match: xiaomi_account_type
+     mode: contains
+
+  CloudService.apk:
+   - match: find_device_dspt_provision_2
+     mode: contains
+   - match: find_device_dspt_provision_2_int
+     mode: contains
+   - match: ks_key_download_button
+     mode: contains
+   - match: ks_key_status
+     mode: contains
+   - match: ks_key_udpate_time
+     mode: contains
+   - match: ks_key_version
+     mode: contains
+   - match: micloud_find_device_opened_content_url
+     mode: contains
+   - match: micloud_footer_international_url
+     mode: contains
+   - match: micloud_footer_normal_url
+     mode: contains
+   - match: sync_dspt_provision2
+     mode: contains
+   - match: sync_dspt_provision2_int
+     mode: contains
+
+  Contacts.apk:
+   - match: call_type_and_date
+     mode: contains
+   - match: config_export_vcard_type
+     mode: contains
+   - match: config_import_vcard_type
+     mode: contains
+   - match: from_account_format
+     mode: contains
+   - match: import_weibo_progress_percent
+     mode: contains
+   - match: percent_sign
+     mode: contains
+   - match: percentage
+     mode: contains
+   - match: phone_info_divider
+     mode: contains
+   - match: smart_group_action_bar_title
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: widget_name_and_phonetic
+     mode: contains
+
+  DeskClock.apk:
+   - match: skip_alarm_date_format
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: symbol_colon
+     mode: contains
+
+  DocumentsUI.apk:
+   - match: appbar_scrolling_view_behavior
+     mode: contains
+   - match: bottom_sheet_behavior
+     mode: contains
+   - match: character_counter_pattern
+     mode: contains
+   - match: path_password_eye
+     mode: contains
+   - match: path_password_eye_mask_strike_through
+     mode: contains
+   - match: path_password_eye_mask_visible
+     mode: contains
+   - match: path_password_strike_through
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  DownloadProvider.apk:
+   - match: download_running_percent
+     mode: contains
+
+  DownloadProviderUi.apk:
+   - match: app_size
+     mode: contains
+   - match: download_num_size
+     mode: contains
+   - match: fileSizeSuffix
+     mode: contains
+   - match: xunlei_brand_url
+     mode: contains
+
+  Email.apk:
+   - match: application_mime_type
+     mode: contains
+   - match: account_cache_provider
+     mode: contains
+   - match: account_manager_type_exchange
+     mode: contains
+   - match: account_manager_type_imap
+     mode: contains
+   - match: account_manager_type_legacy_imap
+     mode: contains
+   - match: account_manager_type_pop3
+     mode: contains
+   - match: authority_email_provider
+     mode: contains
+   - match: bank_card_list_card_num_fmt
+     mode: contains
+   - match: bcc_heading
+     mode: contains
+   - match: cc_attribution
+     mode: contains
+   - match: colon
+     mode: contains
+   - match: conversation_content_provider
+     mode: contains
+   - match: eas_hotmail_email
+     mode: contains
+   - match: eas_outlook_email
+     mode: contains
+   - match: eas_template
+     mode: contains
+   - match: email_package_name
+     mode: contains
+   - match: email_suggestions_authority
+     mode: contains
+   - match: eml_attachment_provider
+     mode: contains
+   - match: formatted_subject
+     mode: contains
+   - match: forward_subject_label
+     mode: contains
+   - match: intent_account_manager_entry
+     mode: contains
+   - match: intent_exchange_package
+     mode: contains
+   - match: label_notification_ticker
+     mode: contains
+   - match: mailbox_name_server_all_unread
+     mode: contains
+   - match: mailbox_name_server_drafts
+     mode: contains
+   - match: mailbox_name_server_inbox
+     mode: contains
+   - match: mailbox_name_server_junk
+     mode: contains
+   - match: mailbox_name_server_outbox
+     mode: contains
+   - match: mailbox_name_server_sent
+     mode: contains
+   - match: mailbox_name_server_starred
+     mode: contains
+   - match: mailbox_name_server_trash
+     mode: contains
+   - match: prefDefault_autoAdvance
+     mode: contains
+   - match: remote_no_mail
+     mode: contains
+   - match: reply_subject_label
+     mode: contains
+   - match: senders_elided
+     mode: contains
+   - match: single_new_message_notification_title
+     mode: contains
+   - match: snip_pic
+     mode: contains
+   - match: special_text_colon_en
+     mode: contains
+   - match: special_text_colon_zh
+     mode: contains
+   - match: special_text_qq_subscribe
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: suggestions_authority
+     mode: contains
+   - match: trigger_compose_char
+     mode: contains
+   - match: trigger_refresh_char
+     mode: contains
+   - match: trigger_y_char
+     mode: contains
+   - match: widget_provider
+     mode: contains
+
+  FileExplorer.apk:
+   - match: add_one
+     mode: contains
+   - match: directory_info_divider
+     mode: contains
+   - match: fileSizeSuffix
+     mode: contains
+   - match: message_my_received_praise_count
+     mode: contains
+   - match: message_reply_suffix
+     mode: contains
+   - match: origin_name
+     mode: contains
+   - match: recommend_users
+     mode: contains
+   - match: search_statistic_match_invalid
+     mode: contains
+   - match: search_statistic_match_valid
+     mode: contains
+   - match: topic_message
+     mode: contains
+   - match: video_tag
+     mode: contains
+   - match: video_tag_search_lead
+     mode: contains
+   - match: video_upload_item_title
+     mode: contains
+
+  FrequentPhrase.apk:
+   - match: xiaomi_account_type
+     mode: contains
+
+  FM.apk:
+   - match: txt_divider
+     mode: contains
+
+  framework-ext-res.apk:
+   - match: notification_header_divider_symbol_with_spaces
+     mode: contains
+   - match: resolver_recommended_app_name
+     mode: contains
+   - match: status_bar_toggle_bluetooth_action
+     mode: contains
+   - match: status_bar_toggle_brightness_action
+     mode: contains
+   - match: status_bar_toggle_data_action
+     mode: contains
+   - match: status_bar_toggle_flight_mode_action
+     mode: contains
+   - match: status_bar_toggle_gps_action
+     mode: contains
+   - match: status_bar_toggle_midrop_action
+     mode: contains
+   - match: status_bar_toggle_mute_action
+     mode: contains
+   - match: status_bar_toggle_nfc_action
+     mode: contains
+   - match: status_bar_toggle_paper_mode_action
+     mode: contains
+   - match: status_bar_toggle_power_mode_action
+     mode: contains
+   - match: status_bar_toggle_quiet_mode_action
+     mode: contains
+   - match: status_bar_toggle_rotate_action
+     mode: contains
+   - match: status_bar_toggle_silent_mode_action
+     mode: contains
+   - match: status_bar_toggle_sync_action
+     mode: contains
+   - match: status_bar_toggle_vibrate_action
+     mode: contains
+   - match: status_bar_toggle_wifi_action
+     mode: contains
+   - match: status_bar_toggle_wifi_ap_action
+     mode: contains
+
+  framework-res.apk:
+   - match: config_geocoderProviderPackageName
+     mode: contains
+   - match: config_networkLocationProviderPackageName
+     mode: contains
+   - match: db_default_journal_mode
+     mode: contains
+   - match: db_default_sync_mode
+     mode: contains
+   - match: db_wal_sync_mode
+     mode: contains
+   - match: fileSizeSuffix
+     mode: contains
+   - match: kg_text_message_separator
+     mode: contains
+   - match: network_available_sign_in_detailed
+     mode: contains
+   - match: notification_messaging_title_template
+     mode: contains
+   - match: status_bar_alarm_clock
+     mode: contains
+   - match: status_bar_battery
+     mode: contains
+   - match: status_bar_bluetooth
+     mode: contains
+   - match: status_bar_cast
+     mode: contains
+   - match: status_bar_cdma_eri
+     mode: contains
+   - match: status_bar_clock
+     mode: contains
+   - match: status_bar_data_connection
+     mode: contains
+   - match: status_bar_data_saver
+     mode: contains
+   - match: status_bar_headset
+     mode: contains
+   - match: status_bar_hotspot
+     mode: contains
+   - match: status_bar_ime
+     mode: contains
+   - match: status_bar_location
+     mode: contains
+   - match: status_bar_managed_profile
+     mode: contains
+   - match: status_bar_mute
+     mode: contains
+   - match: status_bar_nfc
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: status_bar_phone_evdo_signal
+     mode: contains
+   - match: status_bar_phone_signal
+     mode: contains
+   - match: status_bar_rotate
+     mode: contains
+   - match: status_bar_secure
+     mode: contains
+   - match: status_bar_speakerphone
+     mode: contains
+   - match: status_bar_sync_active
+     mode: contains
+   - match: status_bar_sync_failing
+     mode: contains
+   - match: status_bar_tty
+     mode: contains
+   - match: status_bar_volume
+     mode: contains
+   - match: status_bar_wifi
+     mode: contains
+   - match: status_bar_zen
+     mode: contains
+   - match: zen_mode_rule_name_combination
+     mode: contains
+
+  InCallUI.apk:
+   - match: antispam_marked_title
+     mode: contains
+   - match: phone_info_divider
+     mode: contains
+
+  MiCloudSync.apk:
+   - match: xiaomi_account_type
+     mode: contains
+
+  MiDrive.apk:
+   - match: download_current_progress
+     mode: contains
+   - match: fileSizeSuffix
+     mode: contains
+
+  MiGalleryLockscreen.apk:
+   - match: appbar_scrolling_view_behavior
+     mode: contains
+   - match: bottom_sheet_behavior
+     mode: contains
+   - match: character_counter_pattern
+     mode: contains
+   - match: homepaperchanged
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  miui.apk:
+   - match: empty
+     mode: contains
+   - match: size_suffix
+     mode: contains
+
+  MiuiAod.apk:
+   - match: appbar_scrolling_view_behavior
+     mode: contains
+   - match: bottom_sheet_behavior
+     mode: contains
+   - match: fab_transformation_scrim_behavior
+     mode: contains
+   - match: fab_transformation_sheet_behavior
+     mode: contains
+   - match: hide_bottom_view_on_scroll_behavior
+     mode: contains
+   - match: path_password_eye
+     mode: contains
+   - match: path_password_eye_mask_strike_through
+     mode: contains
+   - match: path_password_eye_mask_visible
+     mode: contains
+   - match: path_password_strike_through
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  MiuiBluetooth.apk:
+   - match: ble_profile_1
+     mode: contains
+   - match: ble_profile_2
+     mode: contains
+
+  MiuiBugReport.apk:
+   - match: pic_view_format
+     mode: contains
+
   MiuiCamera.apk:
-    - match: _default
-      mode: suffix
-    - match: _value
-      mode: contains
-    - match: _entryvalue
-      mode: contains
+   - match: _default
+     mode: suffix
+   - match: _value
+     mode: contains
+   - match: _entryvalue
+     mode: contains
+   - match: beauty_level_1
+     mode: contains
+   - match: beauty_level_2
+     mode: contains
+   - match: beauty_level_3
+     mode: contains
+   - match: beauty_level_4
+     mode: contains
+   - match: beauty_level_5
+     mode: contains
+   - match: camera_face_beauty_simple_mode_close
+     mode: contains
+   - match: camera_face_beauty_simple_mode_open
+     mode: contains
+   - match: empty
+     mode: contains
+   - match: pref_camera_antibanding_60
+     mode: contains
+
+  MiuiGallery.apk:
+   - match: camera_path
+     mode: contains
+   - match: camera360_sdk_key
+     mode: contains
+   - match: card_description_from_to
+     mode: contains
+   - match: card_title_somewhere
+     mode: contains
+   - match: face_recommend_group_number
+     mode: contains
+   - match: fileSizeSuffix
+     mode: contains
+   - match: filter_bg_color_component
+     mode: contains
+   - match: grant_permission_item
+     mode: contains
+   - match: percent_sign
+     mode: contains
+   - match: photo_editor_transition_image_view
+     mode: contains
+   - match: provider_authority
+     mode: contains
+   - match: _transition_element_
+     mode: contains
+
+  MiuiHome.apk:
+   - match: home_indicator
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: wallpaper_scrolling
+     mode: contains
+
+  MiuiPackageInstaller.apk:
+   - match: power_charging
+     mode: contains
+   - match: proxy_exclusionlist_hint
+     mode: contains
+   - match: proxy_hostname_hint
+     mode: contains
+   - match: proxy_port_hint
+     mode: contains
+   - match: proxy_url_hint
+     mode: contains
+   - match: wifi_dns1_hint
+     mode: contains
+   - match: wifi_dns2_hint
+     mode: contains
+   - match: wifi_gateway_hint
+     mode: contains
+   - match: wifi_ip_address_hint
+     mode: contains
+   - match: wifi_network_prefix_length_hint
+     mode: contains
+
+  MiuiSystemUI.apk:
+   - match: battery_meter_bg_path
+     mode: contains
+   - match: battery_meter_charging_mask_path
+     mode: contains
+   - match: battery_meter_charging_path
+     mode: contains
+   - match: battery_meter_progress_mask_path
+     mode: contains
+   - match: battery_meter_progress_path
+     mode: contains
+   - match: battery_meter_quick_charging_mask_path
+     mode: contains
+   - match: battery_meter_quick_charging_path
+     mode: contains
+   - match: certinstaller_package
+     mode: contains
+   - match: config_statusBarComponent
+     mode: contains
+   - match: config_systemUIFactoryComponent
+     mode: contains
+   - match: keyguard_charging_info_data_c
+     mode: contains
+   - match: keyguard_charging_info_data_ma
+     mode: contains
+   - match: keyguard_charging_info_data_percent
+     mode: contains
+   - match: keyguard_charging_info_data_v
+     mode: contains
+   - match: keyguard_fancy_colon
+     mode: contains
+   - match: keyguard_more_overflow_text
+     mode: contains
+   - match: list_delimeter
+     mode: contains
+   - match: miui_ringer_count_down_time
+     mode: contains
+   - match: monitoring_description_ca_cert_settings_separator
+     mode: contains
+   - match: monitoring_description_do_learn_more_separator
+     mode: contains
+   - match: monitoring_description_vpn_settings_separator
+     mode: contains
+   - match: network_speed_suffix
+     mode: contains
+   - match: notification_group_divider_symbol
+     mode: contains
+   - match: pip_menu_bounds
+     mode: contains
+   - match: pip_settings_bounds
+     mode: contains
+   - match: power_charging
+     mode: contains
+   - match: power_charging_duration_ac_short
+     mode: contains
+   - match: power_charging_duration_short
+     mode: contains
+   - match: power_charging_duration_usb_short
+     mode: contains
+   - match: power_charging_duration_wireless_short
+     mode: contains
+   - match: process_kernel_label
+     mode: contains
+   - match: proxy_exclusionlist_hint
+     mode: contains
+   - match: proxy_hostname_hint
+     mode: contains
+   - match: proxy_port_hint
+     mode: contains
+   - match: proxy_url_hint
+     mode: contains
+   - match: quick_settings_tiles
+     mode: contains
+   - match: quick_settings_tiles_default
+     mode: contains
+   - match: quick_settings_tiles_retail_mode
+     mode: contains
+   - match: quick_settings_tiles_stock
+     mode: contains
+   - match: settings_package
+     mode: contains
+   - match: status_bar_date_formatter
+     mode: contains
+   - match: status_bar_network_name_separator
+     mode: contains
+   - match: velocity_tracker_impl
+     mode: contains
+   - match: status_bar_settings_battery_meter_format
+     mode: contains
+   - match: weather_description_no_aqi
+     mode: contains
+
+  MiuiVideoGlobal.apk:
+   - match: affelite_id
+     mode: contains
+   - match: api
+     mode: contains
+   - match: app_code
+     mode: contains
+   - match: app_id
+     mode: contains
+   - match: appbar_scrolling_view_behavior
+     mode: contains
+   - match: bottom_sheet_behavior
+     mode: contains
+   - match: campaign_refresh_period
+     mode: contains
+   - match: campaign_server_refresh_period
+     mode: contains
+   - match: cast_intro_overlay_button_text
+     mode: contains
+   - match: cast_invalid_stream_duration_text
+     mode: contains
+   - match: cast_invalid_stream_position_text
+     mode: contains
+   - match: connection_timeout
+     mode: contains
+   - match: event_delivery_attempts_on_500
+     mode: contains
+   - match: event_flush_batch_size
+     mode: contains
+   - match: event_serialized_max_number
+     mode: contains
+   - match: fab_transformation_scrim_behavior
+     mode: contains
+   - match: fab_transformation_sheet_behavior
+     mode: contains
+   - match: flush_period
+     mode: contains
+   - match: format
+     mode: contains
+   - match: hide_bottom_view_on_scroll_behavior
+     mode: contains
+   - match: inbox_keep_in_heap_limit
+     mode: contains
+   - match: inbox_request_limit
+     mode: contains
+   - match: library_roundedimageview_author
+     mode: contains
+   - match: library_roundedimageview_authorWebsite
+     mode: contains
+   - match: library_roundedimageview_isOpenSource
+     mode: contains
+   - match: library_roundedimageview_libraryName
+     mode: contains
+   - match: library_roundedimageview_libraryVersion
+     mode: contains
+   - match: library_roundedimageview_libraryWebsite
+     mode: contains
+   - match: library_roundedimageview_licenseId
+     mode: contains
+   - match: library_roundedimageview_repositoryLink
+     mode: contains
+   - match: location_fetching_on
+     mode: contains
+   - match: media_event_api
+     mode: contains
+   - match: ntp_host_address
+     mode: contains
+   - match: order_alphabet
+     mode: contains
+   - match: partner_id
+     mode: contains
+   - match: path_password_eye
+     mode: contains
+   - match: path_password_eye_mask_strike_through
+     mode: contains
+   - match: path_password_eye_mask_visible
+     mode: contains
+   - match: path_password_strike_through
+     mode: contains
+   - match: pdf_image_url_workaround
+     mode: contains
+   - match: playlists_max_content_number
+     mode: contains
+   - match: playlists_max_number
+     mode: contains
+   - match: product_key
+     mode: contains
+   - match: recordForReadIntervalDelaySeconds
+     mode: contains
+   - match: sdk_ver
+     mode: contains
+   - match: sender_id
+     mode: contains
+   - match: sender_id
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: tag_index
+     mode: contains
+   - match: tag_key
+     mode: contains
+   - match: tag_object
+     mode: contains
+   - match: theme_id
+     mode: contains
+   - match: uninterruptedPlayIntervalSeconds
+     mode: contains
+   - match: web_service_url
+     mode: contains
+   - match: web_service_url_version
+     mode: contains
+   - match: ws_ver
+     mode: contains
+
+  Mms.apk:
+   - match: flatshow_page_no
+     mode: contains
+   - match: prefDefault_vibrate_false
+     mode: contains
+   - match: prefDefault_vibrate_true
+     mode: contains
+   - match: prefDefault_vibrateWhen
+     mode: contains
+   - match: send_to_index_contact
+     mode: contains
+
+  Music.apk:
+   - match: api
+     mode: contains
+   - match: app_code
+     mode: contains
+   - match: app_name
+     mode: contains
+   - match: app_type
+     mode: contains
+   - match: campaign_refresh_period
+     mode: contains
+   - match: campaign_server_refresh_period
+     mode: contains
+   - match: com.crashlytics.android.build_id
+     mode: contains
+   - match: connection_timeout
+     mode: contains
+   - match: cp_info_second
+     mode: contains
+   - match: default_web_client_id
+     mode: contains
+   - match: download_percent
+     mode: contains
+   - match: download_progress
+     mode: contains
+   - match: download_progress_detail
+     mode: contains
+   - match: durationformatlong
+     mode: contains
+   - match: durationformatshort
+     mode: contains
+   - match: durationformatshort_padding_with_0
+     mode: contains
+   - match: event_delivery_attempts_on_500
+     mode: contains
+   - match: event_flush_batch_size
+     mode: contains
+   - match: event_serialized_max_number
+     mode: contains
+   - match: exo_track_bitrate
+     mode: contains
+   - match: exo_track_resolution
+     mode: contains
+   - match: facebook_app_id
+     mode: contains
+   - match: firebase_database_url
+     mode: contains
+   - match: flush_period
+     mode: contains
+   - match: format
+     mode: contains
+   - match: gcm_defaultSenderId
+     mode: contains
+   - match: google_api_key
+     mode: contains
+   - match: google_app_id
+     mode: contains
+   - match: google_crash_reporting_api_key
+     mode: contains
+   - match: google_storage_bucket
+     mode: contains
+   - match: inbox_keep_in_heap_limit
+     mode: contains
+   - match: inbox_request_limit
+     mode: contains
+   - match: include_sensitive_extra
+     mode: contains
+   - match: location_fetching_on
+     mode: contains
+   - match: ntp_host_address
+     mode: contains
+   - match: partner_id
+     mode: contains
+   - match: pdf_image_url_workaround
+     mode: contains
+   - match: playlists_max_content_number
+     mode: contains
+   - match: playlists_max_number
+     mode: contains
+   - match: privacy_policy_url
+     mode: contains
+   - match: project_id
+     mode: contains
+   - match: recordForReadIntervalDelaySeconds
+     mode: contains
+   - match: sdk_ver
+     mode: contains
+   - match: sender_id
+     mode: contains
+   - match: silent_username_limit
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: uninterruptedPlayIntervalSeconds
+     mode: contains
+   - match: user_agreement_url
+     mode: contains
+   - match: web_service_url
+     mode: contains
+   - match: web_service_url_version
+     mode: contains
+   - match: ws_ver
+     mode: contains
+   - match: xiaomi_update_sdk_bytes_unit
+     mode: contains
+   - match: xiaomi_update_sdk_kilobytes_unit
+     mode: contains
+   - match: xiaomi_update_sdk_megabytes_unit
+     mode: contains
+
+  Notes.apk:
+   - match: micloud_state_total_count
+     mode: contains
+   - match: notelist_string_info
+     mode: contains
+   - match: xiaomi_account_type
+     mode: contains
+
+  NotificationCenter.apk:
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  PackageInstaller.apk:
+   - match: certinstaller_package
+     mode: contains
+   - match: lb_time_separator
+     mode: contains
+   - match: power_charging
+     mode: contains
+   - match: power_charging_duration_ac_short
+     mode: contains
+   - match: power_charging_duration_short
+     mode: contains
+   - match: power_charging_duration_usb_short
+     mode: contains
+   - match: power_charging_duration_wireless_short
+     mode: contains
+   - match: process_kernel_label
+     mode: contains
+   - match: proxy_exclusionlist_hint
+     mode: contains
+   - match: proxy_hostname_hint
+     mode: contains
+   - match: proxy_port_hint
+     mode: contains
+   - match: proxy_url_hint
+     mode: contains
+   - match: settings_package
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  PaymentService.apk:
+   - match: mibi_button_count_down_reget
+     mode: contains
+   - match: mibi_colon
+     mode: contains
+   - match: mibi_error_frozen_service_num
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  PersonalAssistant.apk:
+   - match: alipay_msp_image_loader_view_tag
+     mode: contains
+   - match: alipay_msp_tag_view_holder
+     mode: contains
+   - match: alipay_msp_view_wrapper
+     mode: contains
+   - match: alipay_phoneNumber
+     mode: contains
+   - match: ball_football_recent_middle
+     mode: contains
+   - match: express_complete_flag
+     mode: contains
+   - match: express_delivery_flag
+     mode: contains
+   - match: express_info_divider
+     mode: contains
+   - match: express_order_state
+     mode: contains
+   - match: keyboard_more_abc
+     mode: contains
+   - match: keyboard_more_num
+     mode: contains
+   - match: mini_str_null
+     mode: contains
+   - match: msp_mini_layout
+     mode: contains
+   - match: msp_mini_layout_parent
+     mode: contains
+   - match: msp_mini_linblocksconpent
+     mode: contains
+   - match: msp_mini_root
+     mode: contains
+   - match: payment_amount_empty
+     mode: contains
+   - match: personalAssistant_path
+     mode: contains
+   - match: pie_chart_label_format
+     mode: contains
+   - match: pie_chart_label_special
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: stock_change_rate_format
+     mode: contains
+   - match: tag_view_nav
+     mode: contains
+
+  PrintSpooler.apk:
+   - match: current_page_template
+     mode: contains
+   - match: printer_extended_description_template
+     mode: contains
+
+  Provision.apk:
+   - match: suggested_actions_uri
+     mode: contains
+   - match: wizard_script_uri
+     mode: contains
+
+  SecurityAdd.apk:
+   - match: appbar_scrolling_view_behavior
+     mode: contains
+   - match: bottom_sheet_behavior
+     mode: contains
+   - match: empty
+     mode: contains
+   - match: path_password_eye
+     mode: contains
+   - match: path_password_eye_mask_strike_through
+     mode: contains
+   - match: path_password_eye_mask_visible
+     mode: contains
+   - match: path_password_strike_through
+     mode: contains
+   - match: preference_key_information_setting_close
+     mode: contains
+   - match: preference_key_information_setting_wlan
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  SecurityCenter.apk:
+   - match: category_key_power_usage_details
+     mode: contains
+   - match: category_key_power_usage_packages
+     mode: contains
+   - match: create_table_aaid
+     mode: contains
+   - match: create_table_keyword
+     mode: contains
+   - match: create_table_mode
+     mode: contains
+   - match: create_table_oaid
+     mode: contains
+   - match: create_table_phonelist
+     mode: contains
+   - match: create_table_report_sms
+     mode: contains
+   - match: create_table_report_sms_pending
+     mode: contains
+   - match: create_table_sim
+     mode: contains
+   - match: create_table_vaid
+     mode: contains
+   - match: create_talbe_fwlog
+     mode: contains
+   - match: dynamic_md5
+     mode: contains
+   - match: ellipsis
+     mode: contains
+   - match: exo_track_bitrate
+     mode: contains
+   - match: exo_track_resolution
+     mode: contains
+   - match: menu_text_garbage_cleanup_danger
+     mode: contains
+   - match: menu_text_networkassistants_2
+     mode: contains
+   - match: menu_text_networkassistants_data
+     mode: contains
+   - match: menu_text_power_percent_title
+     mode: contains
+   - match: power_center_list_item_battery_health_model_temperature
+     mode: contains
+   - match: power_center_list_item_battery_health_model_voltage
+     mode: contains
+   - match: power_center_list_item_battery_health_model_volume
+     mode: contains
+   - match: power_center_list_item_battery_status_capacity
+     mode: contains
+   - match: power_center_list_item_battery_status_temperature
+     mode: contains
+   - match: pref_operator_setting
+     mode: contains
+   - match: preference_category_information_setting
+     mode: contains
+   - match: preference_category_key_reference_settings
+     mode: contains
+   - match: preference_category_key_virus_lib_auto_update
+     mode: contains
+   - match: preference_category_key_virus_white_list
+     mode: contains
+   - match: preference_key_information_setting_close
+     mode: contains
+   - match: preference_key_information_setting_wlan
+     mode: contains
+   - match: process_kernel_label
+     mode: contains
+   - match: st_antispam_mode_blacklist_state
+     mode: contains
+   - match: st_antispam_mode_only_all_deny_state
+     mode: contains
+   - match: st_antispam_mode_only_contacts_state
+     mode: contains
+   - match: st_antispam_mode_only_whitelist_state
+     mode: contains
+   - match: st_antispam_mode_smart_state
+     mode: contains
+   - match: xiaomi_account_type
+     mode: contains
+
+  Settings.apk:
+   - match: bootloader_unlock_webhome
+     mode: contains
+   - match: call_manager_summary
+     mode: contains
+   - match: category_key_device
+     mode: contains
+   - match: category_key_personal
+     mode: contains
+   - match: category_key_system
+     mode: contains
+   - match: category_key_wireless
+     mode: contains
+   - match: certinstaller_package
+     mode: contains
+   - match: condition_summary
+     mode: contains
+   - match: digital_clock_dot
+     mode: contains
+   - match: directory_on_volume
+     mode: contains
+   - match: dndm_auto_time_setting_summary
+     mode: contains
+   - match: firmware_title
+     mode: contains
+   - match: gadget_state_template
+     mode: contains
+   - match: keyguard_setting_privacy_policy_url
+     mode: contains
+   - match: link_speed
+     mode: contains
+   - match: memory_use_running_format
+     mode: contains
+   - match: nfc_payment_app_and_desc
+     mode: contains
+   - match: night_mode_summary
+     mode: contains
+   - match: notification_header_divider_symbol_with_spaces
+     mode: contains
+   - match: notifications_three_items
+     mode: contains
+   - match: notifications_two_items
+     mode: contains
+   - match: owner_info_settings_status
+     mode: contains
+   - match: physical_device_title
+     mode: contains
+   - match: power_charging
+     mode: contains
+   - match: power_charging_duration_ac_short
+     mode: contains
+   - match: power_charging_duration_short
+     mode: contains
+   - match: power_charging_duration_usb_short
+     mode: contains
+   - match: power_charging_duration_wireless_short
+     mode: contains
+   - match: power_remaining_settings_home_page
+     mode: contains
+   - match: process_format
+     mode: contains
+   - match: process_kernel_label
+     mode: contains
+   - match: proxy_exclusionlist_hint
+     mode: contains
+   - match: proxy_hostname_hint
+     mode: contains
+   - match: proxy_port_hint
+     mode: contains
+   - match: proxy_url_hint
+     mode: contains
+   - match: security_encryption_attention_symbol
+     mode: contains
+   - match: service_client_name
+     mode: contains
+   - match: service_process_name
+     mode: contains
+   - match: settings_package
+     mode: contains
+   - match: sim_settings_summary
+     mode: contains
+   - match: size_suffix
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: status_bar_settings_carrier_sim
+     mode: contains
+   - match: summary_font_size
+     mode: contains
+   - match: summary_range_symbol_combination
+     mode: contains
+   - match: sync_item_title
+     mode: contains
+   - match: tune_away_Default
+     mode: contains
+   - match: wifi_calling_roaming_mode_summary
+     mode: contains
+   - match: zen_mode_rule_summary_combination
+     mode: contains
+   - match: zone_info_exemplar_location_and_offset
+     mode: contains
+   - match: zone_info_offset_and_name
+     mode: contains
+
+  SettingsProvider.apk:
+   - match: airplane_mode_toggleable_radios
+     mode: contains
+   - match: def_backup_transport
+     mode: contains
+
+  SmsExtra.apk:
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  SoundRecorder.apk:
+   - match: xiaomi_account_type
+     mode: contains
+
+  Telecom.apk:
+   - match: certinstaller_package
+     mode: contains
+   - match: default_connection_manager_component
+     mode: contains
+   - match: dialer_default_class
+     mode: contains
+   - match: incall_default_class
+     mode: contains
+   - match: Lch_dtmf_key
+     mode: contains
+   - match: number_tag_divider
+     mode: contains
+   - match: power_charging
+     mode: contains
+   - match: power_charging_duration_ac_short
+     mode: contains
+   - match: power_charging_duration_short
+     mode: contains
+   - match: power_charging_duration_usb_short
+     mode: contains
+   - match: power_charging_duration_wireless_short
+     mode: contains
+   - match: process_kernel_label
+     mode: contains
+   - match: proxy_exclusionlist_hint
+     mode: contains
+   - match: proxy_hostname_hint
+     mode: contains
+   - match: proxy_port_hint
+     mode: contains
+   - match: proxy_url_hint
+     mode: contains
+   - match: settings_package
+     mode: contains
+   - match: ui_default_package
+     mode: contains
+   - match: ui_default_package_dialer
+     mode: contains
+
+  TeleService.apk:
+   - match: advanced_settings_container
+     mode: contains
+   - match: auth_username
+     mode: contains
+   - match: certinstaller_package
+     mode: contains
+   - match: default_port
+     mode: contains
+   - match: default_transport
+     mode: contains
+   - match: display_name
+     mode: contains
+   - match: domain_address
+     mode: contains
+   - match: network_operator_settings_package
+     mode: contains
+   - match: password
+     mode: contains
+   - match: port
+     mode: contains
+   - match: power_charging
+     mode: contains
+   - match: power_charging_duration_ac_short
+     mode: contains
+   - match: power_charging_duration_short
+     mode: contains
+   - match: power_charging_duration_usb_short
+     mode: contains
+   - match: power_charging_duration_wireless_short
+     mode: contains
+   - match: process_kernel_label
+     mode: contains
+   - match: proxy_exclusionlist_hint
+     mode: contains
+   - match: proxy_hostname_hint
+     mode: contains
+   - match: proxy_port_hint
+     mode: contains
+   - match: proxy_url_hint
+     mode: contains
+   - match: send_keepalive
+     mode: contains
+   - match: set_primary
+     mode: contains
+   - match: settings_package
+     mode: contains
+   - match: sip_address_only
+     mode: contains
+   - match: sip_always
+     mode: contains
+   - match: sip_ask_me_each_time
+     mode: contains
+   - match: time_interval_char
+     mode: contains
+   - match: transport
+     mode: contains
+   - match: tty_mode_key
+     mode: contains
+   - match: ui_default_package
+     mode: contains
+   - match: username
+     mode: contains
+   - match: voicemail_change_pin_key
+     mode: contains
+   - match: voicemail_notifications_key
+     mode: contains
+   - match: voicemail_notification_vibrate_when_default
+     mode: contains
+   - match: voicemail_visual_voicemail_key
+     mode: contains
+   - match: wifi_calling_settings_key
+     mode: contains
+
+  ThemeManager.apk:
+   - match: appbar_scrolling_view_behavior
+     mode: contains
+   - match: bottom_sheet_behavior
+     mode: contains
+   - match: exo_track_bitrate
+     mode: contains
+   - match: exo_track_resolution
+     mode: contains
+   - match: gift_count_format
+     mode: contains
+   - match: item_resource_audio_divider
+     mode: contains
+   - match: path_password_eye
+     mode: contains
+   - match: path_password_eye_mask_strike_through
+     mode: contains
+   - match: path_password_eye_mask_visible
+     mode: contains
+   - match: path_password_strike_through
+     mode: contains
+   - match: resource_detail_vertical_divider
+     mode: contains
+   - match: resource_price_format
+     mode: contains
+   - match: resource_ring_ranking_list_divider
+     mode: contains
+   - match: resource_ring_ranking_list_rank_1
+     mode: contains
+   - match: resource_ring_ranking_list_rank_2
+     mode: contains
+   - match: resource_ring_ranking_list_rank_3
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+   - match: theme_name
+     mode: contains
+
+  TouchAssistant.apk:
+   - match: alipay_package
+     mode: contains
+   - match: wechat_package
+     mode: contains
+
+  Updater.apk:
+   - match: chengelog
+     mode: contains
+   - match: message
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  Weather.apk:
+   - match: daily_forecast_detail_date_format
+     mode: contains
+   - match: data_source_time_fromat
+     mode: contains
+   - match: empty
+     mode: contains
+   - match: hourly_forecast_bottom_aqi_chinese
+     mode: contains
+   - match: hourly_forecast_bottom_aqi_else
+     mode: contains
+   - match: indices_desc_humidity_without_pic
+     mode: contains
+   - match: information_time_source
+     mode: contains
+   - match: install_progress
+     mode: contains
+   - match: international_details_wind_connect
+     mode: contains
+   - match: item_city_list_region_no_data
+     mode: contains
+   - match: item_city_list_temperature_no_data
+     mode: contains
+   - match: share_weather_desc_alert
+     mode: contains
+   - match: data_source_timezone
+     mode: contains
+
+  XiaomiServiceFramework.apk:
+   - match: activate_sms_postfix
+     mode: contains
+
+  YellowPage.apk:
+   - match: express_order_state
+     mode: contains
+   - match: nearby_yellow_page_title_format
+     mode: contains
+   - match: order_merchant_title_format
+     mode: contains
+   - match: phone_info_divider
+     mode: contains
+   - match: recharge_phone_format
+     mode: contains
+   - match: shop_recommendation_format
+     mode: contains
+   - match: status_bar_notification_info_overflow
+     mode: contains
+
+  CABLService.apk:
+   - match: cabl_level_default
+     mode: contains
+
+  MiuiSystemUI.apk:
+   - match: flash_device
+     mode: contains
 
 strings_value_rules:
   all:
@@ -23,6 +1498,276 @@ arrays_key_rules:
     - match: _values
       mode: suffix
 
+  Backup.apk:
+   - match: font_size_scale
+     mode: contains
+   - match: mi_stat_success_survey_key
+     mode: contains
+   - match: mi_stat_cancel_survey_key
+     mode: contains
+
+  Browser.apk:
+   - match: baidu
+     mode: contains
+   - match: baidu_in_list
+     mode: contains
+   - match: bing
+     mode: contains
+   - match: bing_in_list
+     mode: contains
+   - match: bing_zh_CN_in_list
+     mode: contains
+   - match: bookmarks
+     mode: contains
+   - match: bookmarks_cm_customization
+     mode: contains
+   - match: bookmarks_cu_customization
+     mode: contains
+   - match: bookmarks_zh
+     mode: contains
+   - match: config_keySystemUuidMapping
+     mode: contains
+   - match: dianping
+     mode: contains
+   - match: dianping_in_list
+     mode: contains
+   - match: easou
+     mode: contains
+   - match: easou_in_list
+     mode: contains
+   - match: google_in_list
+     mode: contains
+   - match: hot_words_item_text_bg_color
+     mode: contains
+   - match: hot_words_item_text_frame_color
+     mode: contains
+   - match: locale_paks
+     mode: contains
+   - match: readmode_theme_bgcolors
+     mode: contains
+   - match: readmode_theme_fontcolors
+     mode: contains
+   - match: readmode_title_font_size
+     mode: contains
+   - match: s139
+     mode: contains
+   - match: s139_in_list
+     mode: contains
+   - match: search_bar_search_engines_cmcc
+     mode: contains
+   - match: search_bar_search_engines_rCN
+     mode: contains
+   - match: search_engines
+     mode: contains
+   - match: search_engines_cmcc
+     mode: contains
+   - match: search_engines_rCN
+     mode: contains
+   - match: shipin
+     mode: contains
+   - match: shipin_in_list
+     mode: contains
+   - match: sm
+     mode: contains
+   - match: sm_in_list
+     mode: contains
+   - match: sogou
+     mode: contains
+   - match: sogou_in_list
+     mode: contains
+   - match: taobao
+     mode: contains
+   - match: taobao_in_list
+     mode: contains
+   - match: tupian
+     mode: contains
+   - match: tupian_in_list
+     mode: contains
+   - match: yahoo
+     mode: contains
+   - match: yahoo_in_list
+     mode: contains
+   - match: yicha
+     mode: contains
+   - match: yicha_in_list
+     mode: contains
+
+  CleanMaster.apk:
+   - match: hide_installed_packages
+     mode: contains
+   - match: hide_path
+     mode: contains
+   - match: hide_packages
+     mode: contains
+   - match: white_list_cache
+     mode: contains
+   - match: white_list_ad
+     mode: contains
+
+  DeskClock.apk:
+   - match: battery_charging_level
+     mode: contains
+   - match: cities_id_miui
+     mode: contains
+   - match: cities_tz_miui
+     mode: contains
+
+  FM.apk:
+   - match: freq_entries
+     mode: contains
+
+  framework-res.apk:
+   - match: config_ephemeralResolverPackage
+     mode: contains
+   - match: config_globalActionsList
+     mode: contains
+   - match: config_gpsParameters
+     mode: contains
+   - match: config_locationProviderPackageNames
+     mode: contains
+   - match: config_statusBarIcons
+     mode: contains
+
+  InCallUI.apk:
+   - match: absent_num
+     mode: contains
+
+  MiuiGallery.apk:
+   - match: baby_sexy_value
+     mode: contains
+   - match: owner_relation_value
+     mode: contains
+   - match: relation_with_me_value
+     mode: contains
+
+  MiuiScanner.apk:
+   - match: scan_modes
+     mode: contains
+
+  MiuiSystemUI.apk:
+   - match: app_without_launcher_whitelist
+     mode: contains
+   - match: aqi_title_append
+     mode: contains
+   - match: aqi_title_prefix
+     mode: contains
+   - match: aqi_title
+     mode: contains
+   - match: avoid_disturb_app_whitelist
+     mode: contains
+   - match: batterymeter_bolt_points
+     mode: contains
+   - match: batterymeter_plus_points
+     mode: contains
+   - match: data_type_name_cus_reg_key
+     mode: contains
+   - match: data_type_name_cus_reg_value
+     mode: contains
+   - match: data_type_name_default
+     mode: contains
+   - match: data_type_name_mcc_key
+     mode: contains
+   - match: data_type_name_mcc_value
+     mode: contains
+   - match: data_type_name_miui_mcc_key
+     mode: contains
+   - match: data_type_name_miui_mcc_value
+     mode: contains
+   - match: device_global_support_face_facejiajia
+     mode: contains
+   - match: device_global_support_face_sensetime
+     mode: contains
+   - match: device_support_face
+     mode: contains
+   - match: device_support_pickup_by_xiaomi
+     mode: contains
+   - match: duration_entries
+     mode: contains
+   - match: mcc_mnc
+     mode: contains
+   - match: multi_window_force_resize_pkgs
+     mode: contains
+   - match: multi_window_force_not_resize_pkgs
+     mode: contains
+   - match: system_foreground_notification_whitelist
+     mode: contains
+   - match: tts_demo_string_langs
+     mode: contains
+   - match: usa_mcc
+     mode: contains
+
+  PersonalAssistant.apk:
+   - match: alipay_CountryCodes
+     mode: contains
+   - match: ball_football_recent_middle
+     mode: contains
+   - match: default_app
+     mode: contains
+   - match: express_watched_app
+     mode: contains
+   - match: express_watched_app_company_id
+     mode: contains
+   - match: express_watched_app_order_number_id
+     mode: contains
+
+  PowerKeeper.apk:
+   - match: action_name
+     mode: contains
+   - match: action_param
+     mode: contains
+   - match: alarm_general_type_restricted
+     mode: contains
+   - match: broadcast_general_type_restricted
+     mode: contains
+   - match: cpu_actions_device
+     mode: contains
+   - match: event_name
+     mode: contains
+   - match: group_name
+     mode: contains
+   - match: read_disable
+     mode: contains
+   - match: shown_action_name
+     mode: contains
+   - match: shown_mandatory_event_name
+     mode: contains
+   - match: shown_optional_event_name
+     mode: contains
+
+  SecurityCenter.apk:
+   - match: always_enabled_app_list
+     mode: contains
+   - match: clean_cached_process_white_list
+     mode: contains
+   - match: key_app_info
+     mode: contains
+   - match: st_antispam_mode_defined_state
+     mode: contains
+   - match: st_antispam_mode_defined_state_international
+     mode: contains
+
+  Settings.apk:
+   - match: always_enabled_app_list
+     mode: contains
+   - match: change_security_lock_picker_key
+     mode: contains
+   - match: device_global_support_face_facejiajia
+     mode: contains
+   - match: device_global_support_face_sensetime
+     mode: contains
+   - match: device_support_face
+     mode: contains
+   - match: device_support_pickup_by_xiaomi
+     mode: contains
+   - match: key_and_gesture_shortcut_action
+     mode: contains
+   - match: standard_configuration_version_description_secondary
+     mode: contains
+
+  TeleService.apk:
+   - match: absent_num
+     mode: contains
+
 arrays_value_rules:
   all:
     - match: '@string'
@@ -33,3 +1778,4 @@ arrays_value_rules:
       mode: prefix
     - match: com.
       mode: prefix
+
