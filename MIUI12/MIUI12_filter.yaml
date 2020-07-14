@@ -691,6 +691,8 @@ strings_key_rules:
      mode: contains
    - match: weather_description_no_aqi
      mode: contains
+   - match: flash_device
+     mode: contains
 
   MiuiVideoGlobal.apk:
    - match: affelite_id
@@ -1476,10 +1478,6 @@ strings_key_rules:
 
   CABLService.apk:
    - match: cabl_level_default
-     mode: contains
-
-  MiuiSystemUI.apk:
-   - match: flash_device
      mode: contains
 
 strings_value_rules:
